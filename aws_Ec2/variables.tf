@@ -11,11 +11,11 @@ variable "key-pair" {
 }
 
 variable "subnet_id" {
-  default = "subnet-0a661752c2a40cb89"
+  default = "subnet-0a0520ba45497e315"
 }
 
 variable "sg-id" {
-  default = ["sg-06f4ba5be97527cbb"]
+  default = ["sg-03985cb46830d5ea9"]
 }
 
 variable "ec2-name" {
@@ -23,5 +23,5 @@ variable "ec2-name" {
 }
 
 variable "vpc_id" {
-  default = "vpc-066c334e1aedb3280"
+  default = "vpc-0c15f2f16024c664d "
 }
